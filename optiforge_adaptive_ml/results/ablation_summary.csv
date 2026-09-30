@@ -1,0 +1,9 @@
+,multi_objective_score,multi_objective_score,mean_shifted_perf,worst_shifted_perf,max_degradation,retention_perf
+,mean,std,mean,mean,mean,mean
+configuration,,,,,,
+Ablation A (No Drift Detect),0.688,0.1554,-1.5388,-2.0426,1.201,-1.1956
+Ablation B (No Replay Buffer),0.7102,0.1423,-1.3021,-1.8168,0.9752,-1.5402
+Ablation C (No Adaptive Scale),0.6922,0.1531,-1.5166,-1.9784,1.1368,-1.334
+Ablation D (No Anchor Backbone),0.7518,0.0965,-1.315,-1.8233,0.2566,-1.6648
+Ablation E (Random Replay),0.6924,0.1605,-1.4476,-2.0995,1.2579,-1.1382
+Full Proposed (OptiForge),0.6927,0.1563,-1.4449,-2.0679,1.2262,-1.1533
